@@ -1,0 +1,16 @@
+1. Đảm bảo đã cài nodejs
+Cài nodejs: https://nodejs.org/en
+
+2. Down source về chạy lệnh: npm install
+3. Chạy project
+
+    Cách lấy data:
+    1. Mở game lên -> Chuột phải vào game -> chọn Kiểm tra (với ai cài tiếng việt), inspect (Với ai cài tiếng anh)
+    2. Vào tab console của devtool gõ dòng lệnh copy(Telegram.WebApp.initData) nếu nó hiện undefined thì đã copy vào bộ nhớ tạm (ctrl + V sẽ thấy). nếu lỗi đỏ thì chuột phải lại vào iframe của game như bước trên lại
+
+ - Nếu chạy 1 acc không dùng proxy:
+ + Tạo file query.txt
+ + Ctrl + V dán cái vừa copy từ bộ nhớ tạm vào file query.txt
+ + Sau đó chạy lệnh: node node iamdog
+
+ Chúc ae thành công.
